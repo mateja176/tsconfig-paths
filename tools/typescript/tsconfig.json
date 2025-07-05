@@ -4,7 +4,8 @@
     "declaration": true,
     "emitDeclarationOnly": true,
     "paths": {
-      "@doritokit/*": ["*/src"]
+      "@doritokit/*": ["*/src"],
+      "@doritokit/toolboxes/types": ["toolboxes/src/types"]
     },
     "typeRoots": []
   }

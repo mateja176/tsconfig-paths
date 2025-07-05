@@ -5,6 +5,9 @@
       "path": "./packages/helpers"
     },
     {
+      "path": "./packages/sdk"
+    },
+    {
       "path": "./packages/toolboxes"
     }
   ]
