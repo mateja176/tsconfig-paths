@@ -1,0 +1,32 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "tsconfig-paths",
+      "dependencies": {
+        "typescript": "^5.8.3",
+      },
+    },
+    "packages/helpers": {
+      "name": "helpers",
+      "version": "1.0.0",
+      "dependencies": {
+        "typescript": "^5.8.3",
+      },
+    },
+    "packages/toolboxes": {
+      "name": "toolboxes",
+      "version": "1.0.0",
+      "dependencies": {
+        "typescript": "^5.8.3",
+      },
+    },
+  },
+  "packages": {
+    "helpers": ["helpers@workspace:packages/helpers"],
+
+    "toolboxes": ["toolboxes@workspace:packages/toolboxes"],
+
+    "typescript": ["typescript@5.8.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ=="],
+  }
+}

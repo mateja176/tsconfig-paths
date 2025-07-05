@@ -1,0 +1,15 @@
+{
+  "name": "tsconfig-paths",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "types": "tsc --build"
+  },
+  "keywords": [],
+  "author": "Mateja Petrovic <mateja176@gmail.com> (https://github.com/mateja176)",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "typescript": "^5.8.3"
+  }
+}

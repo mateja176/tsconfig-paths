@@ -1,0 +1,10 @@
+{
+  "name": "toolboxes",
+  "version": "1.0.0",
+  "author": "Mateja Petrovic <mateja176@gmail.com> (https://github.com/mateja176)",
+  "main": "index.js",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "scripts": {}
+}

@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "../../packages",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "paths": {
+      "@doritokit/*": ["*/src"]
+    },
+    "typeRoots": []
+  }
+}
